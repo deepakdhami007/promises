@@ -33,6 +33,8 @@ function deleteLastPost() {
 }
 
 
+
+
 createPost({ title: "POST1" })
   .then(() => updateLastUserActivityTime())
   .then(() => {
